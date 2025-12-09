@@ -8,6 +8,8 @@ import UserGreeting from "./UseerGreeting.jsx";
 import List from "./List.jsx";
 import ProfilePicture from "./ProfilePicture.jsx";
 import MyComponent from "./MyComponent.jsx";
+import OnChange from "./OnChange.jsx";
+import ColourPicker from "./ColourPicker.jsx";
 
 function App() {
 	return (
@@ -23,6 +25,8 @@ function App() {
 			<List />
 			<ProfilePicture />
 			<MyComponent />
+			<OnChange />
+			<ColourPicker />
 			<Footer />
 		</div>
 	);
