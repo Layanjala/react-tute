@@ -5,6 +5,9 @@ import Card from "./Card.jsx";
 import Button from "./Button.jsx";
 import Student from "./Student.jsx";
 import UserGreeting from "./UseerGreeting.jsx";
+import List from "./List.jsx";
+import ProfilePicture from "./ProfilePicture.jsx";
+import MyComponent from "./MyComponent.jsx";
 
 function App() {
 	return (
@@ -17,6 +20,9 @@ function App() {
 			<Student name="Patric Harvy" age={42} />
 			<Student />
 			<UserGreeting isloggedin={true} username="Laya" />
+			<List />
+			<ProfilePicture />
+			<MyComponent />
 			<Footer />
 		</div>
 	);
