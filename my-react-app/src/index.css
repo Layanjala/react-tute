@@ -70,3 +70,34 @@
 	font-size: 1.2em;
 	color: #333;
 }
+.todolist {
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	background-color: #f9f9f9;
+	font-family: "Courier New", Courier, monospace;
+	text-align: left;
+}
+.todolist button {
+	background-color: #4caf50;
+	color: white;
+	/* padding: 10px 15px; */
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 10px 10px;
+	transition: background-color 0.5s ease;
+}
+.todolist .deletebutton {
+	background-color: #f44336;
+}
+.todolist .upbutton {
+	background-color: #f6d860;
+}
+.todolist .downbutton {
+	background-color: #60bdf6;
+}
+.todolist button:hover {
+	background-color: #020101;
+}

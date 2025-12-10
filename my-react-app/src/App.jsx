@@ -10,6 +10,8 @@ import ProfilePicture from "./ProfilePicture.jsx";
 import MyComponent from "./MyComponent.jsx";
 import OnChange from "./OnChange.jsx";
 import ColourPicker from "./ColourPicker.jsx";
+import UpdateArray from "./UpdateArray.jsx";
+import ToDoList from "./ToDoList.jsx";
 
 function App() {
 	return (
@@ -27,6 +29,8 @@ function App() {
 			<MyComponent />
 			<OnChange />
 			<ColourPicker />
+			<UpdateArray />
+			<ToDoList />
 			<Footer />
 		</div>
 	);
